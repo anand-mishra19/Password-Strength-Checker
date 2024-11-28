@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#strength-message {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.strength-meter {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.strength-meter-fill {
+    height: 100%;
+    width: 0;
+    background-color: red;
+    transition: width 0.3s, background-color 0.3s;
+    border-radius: 5px;
+}
+
+.strength-weak {
+    background-color: red;
+}
+
+.strength-medium {
+    background-color: orange;
+}
+
+.strength-strong {
+    background-color: green;
+}
+
+.strength-percentage {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#password-hint {
+    margin-top: 10px;
+    color: #555;
+    font-size: 0.9em;
+}
+
+#break-time {
+    margin-top: 10px;
+    color: #333;
+    font-size: 0.9em;
+    font-weight: bold;
+}
