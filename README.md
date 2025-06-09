@@ -18,7 +18,8 @@ It helps users evaluate the strength of their passwords in real-time and encoura
 
 ## 📸 Screenshots
 
-Password-Strength-Checker Screenshot.png
+![Password-Strength-Checker Screenshot (1)](https://github.com/user-attachments/assets/b3749b3f-905d-43ef-a97a-88acd5d30fd2)
+
 
 ## 🛠️ Technologies Used
 
